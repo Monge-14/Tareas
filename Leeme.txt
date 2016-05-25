@@ -1,0 +1,84 @@
+
+Diferencias c,c++ y c#
+
+
+c#:
+1-Elimina muchos elementos añadidos por otros lenguajes y quefacilitan su uso y compresión.
+2-Al ser C# un lenguaje de última generación, incorpora elementos que seha demostrado a lo largo del tiempo que son muy útiles para elprogramador, como tipos decimales o
+booleanos, un tipo básico string.
+3-Como lenguaje de última generación, y de propósito general, esorientado a objetos. C# no permite la 
+inclusión de funciones ni variablesglobales que no estén incluidos en una definición de tipos, por lo que
+ laorientación a objetos es más pura y clara que en otros lenguajes comoC++.
+4-En C# todos los tipos derivan de una superclase común llamada System.Object , por lo que automáticamente
+ heredarán todos losmiembros definidos en esta clase. 
+5-Incluye mecanismos de control de acceso a tipos de datos, lo quegarantiza que no se produzcan errores 
+difíciles de detectar como unacceso a memoria de ningún objeto
+
+c++:
+1-Tiene un conjunto completo de instrucciones de control.
+2-Permite la agrupación de instrucciones.
+3-Incluye el concepto de puntero (variable que contiene la dirección de otra variable).
+4-Los argumentos de las funciones se transfieren por su valor.
+5-Permite la separación de un programa en módulos que admiten compilación independiente.
+
+c:
+
+1-Acceso a memoria de bajo nivel mediante el uso de punteros.
+2-Interrupciones al procesador con uniones.
+3-Un conjunto reducido de palabras clave.
+4-Por defecto, el paso de parámetros a una función se realiza por valor. El paso por referencia se 
+consigue pasando explícitamente a las funciones las direcciones de memoria de dichos parámetros.
+5-Punteros a funciones y variables estáticas, que permiten una forma rudimentaria de encapsulado y 
+polimorfismo.
+
+
+Git:
+Git es un sistema libre y de código abierto distribuido de control de versiones diseñado para manejar
+ todo, desde pequeñas a proyectos muy grandes con rapidez y eficacia .Git es fácil de aprender y tiene 
+una pequeña huella con un rendimiento increíblemente rápido . Se supera a herramientas de SCM como 
+Subversion , CVS , Perforce y ClearCase con características como barato ramificación locales ,
+ áreas de almacenamiento convenientes , y múltiples flujos de trabajo.
+
+1-Para inicializar un repositorio es muy sencillo, simplemente abrimos un terminal y nos posicionamos 
+dentro del directorio que contiene los ficheros.
+2-Determinar el estado de un repositorio con un comando GIT STATUS.
+3-Agregar cambios al repositorio con GIT ADD INDEX.
+4-COMMIT de los cambios registrador o agregados al repositorio empleamos el siguiente comando:
+GIT COMMIT"Commit incial".
+5-Ahora que hemos realizados varios COMMIT de cambios al repositorio veamos como obtener el registro 
+de todos los cambios realizados; para ello empleamos el siguiente comando:  GIT LOG.
+6-Hacer PUSHING del código fuente para enviarlo al repositorio remoto y para ello empelamos el 
+siguiente comando:  GIT PUSH.
+
+Github:
+GitHub es un servicio de alojamiento repositorio Git basado en la web . Ofrece todo el control distribuido de 
+versiones y administración de código fuente (SCM ) funcionalidad de Git , así como la adición de sus propias 
+características. A diferencia de Git , que es estrictamente una herramienta de línea de comandos , GitHub 
+proporciona una interfaz gráfica basada en Web y de escritorio , así como la integración móvil. También
+ proporciona control de acceso y varias funciones de colaboración , tales como el seguimiento de errores , 
+peticiones de características , gestión de tareas.
+
+
+1-Para crear un repositorio en GitHub, solo hay que seleccionar el botón “Create a New Repo”, 
+de la barra de herramientas, habiendo entrado a GitHub con tu cuenta.
+2-Para crear un proyecto desde cero, habrá que comenzar creando los archivos del mismo
+ y luego subiéndolos a la página.
+3-Para subir un archivo hay que ubicarse en la carpeta del repositorio y seguir estos pasos:
+git add archivo
+git commit -m "comentario"
+git push
+4-
+
+
+
+
+
+
+
+comandos:
+touch README.md
+git init
+git add README.md
+git commit -m "comentario"
+git remote add origin https://github.com/LuchoCastillo/Repositorio.git
+git push -u origin master
